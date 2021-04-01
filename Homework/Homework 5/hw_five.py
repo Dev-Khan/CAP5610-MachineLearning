@@ -6,8 +6,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-# https://towardsdatascience.com/building-and-testing-recommender-systems-with-surprise-step-by-step-d4ba702ef80b
-
 def load_data():
     df = pd.read_csv("./archive/ratings_small.csv")
     df.columns=['userID', 'movieID', 'rating', 'timestamp']
